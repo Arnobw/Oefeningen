@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\bin\Debug\net6.0\Poef.exe
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\bin\Debug\net6.0\Poef.deps.json
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\bin\Debug\net6.0\Poef.runtimeconfig.json
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\bin\Debug\net6.0\Poef.dll
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\bin\Debug\net6.0\Poef.pdb
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\obj\Debug\net6.0\Poef.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\obj\Debug\net6.0\Poef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\obj\Debug\net6.0\Poef.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\obj\Debug\net6.0\Poef.AssemblyInfo.cs
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\obj\Debug\net6.0\Poef.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\obj\Debug\net6.0\Poef.dll
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\obj\Debug\net6.0\refint\Poef.dll
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\obj\Debug\net6.0\Poef.pdb
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\obj\Debug\net6.0\Poef.genruntimeconfig.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Poef\obj\Debug\net6.0\ref\Poef.dll

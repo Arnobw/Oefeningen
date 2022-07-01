@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\bin\Debug\net6.0\Casino.exe
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\bin\Debug\net6.0\Casino.deps.json
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\bin\Debug\net6.0\Casino.runtimeconfig.json
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\bin\Debug\net6.0\Casino.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\bin\Debug\net6.0\Casino.pdb
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\obj\Debug\net6.0\Casino.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\obj\Debug\net6.0\Casino.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\obj\Debug\net6.0\Casino.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\obj\Debug\net6.0\Casino.AssemblyInfo.cs
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\obj\Debug\net6.0\Casino.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\obj\Debug\net6.0\Casino.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\obj\Debug\net6.0\refint\Casino.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\obj\Debug\net6.0\Casino.pdb
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\obj\Debug\net6.0\Casino.genruntimeconfig.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\Casino\obj\Debug\net6.0\ref\Casino.dll

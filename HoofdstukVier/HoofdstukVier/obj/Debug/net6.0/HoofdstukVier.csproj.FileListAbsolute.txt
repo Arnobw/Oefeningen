@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\bin\Debug\net6.0\HoofdstukVier.exe
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\bin\Debug\net6.0\HoofdstukVier.deps.json
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\bin\Debug\net6.0\HoofdstukVier.runtimeconfig.json
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\bin\Debug\net6.0\HoofdstukVier.dll
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\bin\Debug\net6.0\HoofdstukVier.pdb
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\obj\Debug\net6.0\HoofdstukVier.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\obj\Debug\net6.0\HoofdstukVier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\obj\Debug\net6.0\HoofdstukVier.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\obj\Debug\net6.0\HoofdstukVier.AssemblyInfo.cs
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\obj\Debug\net6.0\HoofdstukVier.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\obj\Debug\net6.0\HoofdstukVier.dll
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\obj\Debug\net6.0\refint\HoofdstukVier.dll
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\obj\Debug\net6.0\HoofdstukVier.pdb
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\obj\Debug\net6.0\HoofdstukVier.genruntimeconfig.cache
+C:\Users\arnob\source\repos\HoofdstukVier\HoofdstukVier\obj\Debug\net6.0\ref\HoofdstukVier.dll

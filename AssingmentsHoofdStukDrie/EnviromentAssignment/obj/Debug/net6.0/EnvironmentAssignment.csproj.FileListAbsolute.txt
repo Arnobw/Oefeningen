@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\bin\Debug\net6.0\EnvironmentAssignment.exe
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\bin\Debug\net6.0\EnvironmentAssignment.deps.json
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\bin\Debug\net6.0\EnvironmentAssignment.runtimeconfig.json
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\bin\Debug\net6.0\EnvironmentAssignment.dll
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\bin\Debug\net6.0\EnvironmentAssignment.pdb
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\obj\Debug\net6.0\EnvironmentAssignment.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\obj\Debug\net6.0\EnvironmentAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\obj\Debug\net6.0\EnvironmentAssignment.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\obj\Debug\net6.0\EnvironmentAssignment.AssemblyInfo.cs
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\obj\Debug\net6.0\EnvironmentAssignment.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\obj\Debug\net6.0\EnvironmentAssignment.dll
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\obj\Debug\net6.0\refint\EnvironmentAssignment.dll
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\obj\Debug\net6.0\EnvironmentAssignment.pdb
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\obj\Debug\net6.0\EnvironmentAssignment.genruntimeconfig.cache
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\EnviromentAssignment\obj\Debug\net6.0\ref\EnvironmentAssignment.dll

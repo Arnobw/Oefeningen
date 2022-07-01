@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\bin\Debug\net6.0\Feestkassa.exe
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\bin\Debug\net6.0\Feestkassa.deps.json
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\bin\Debug\net6.0\Feestkassa.runtimeconfig.json
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\bin\Debug\net6.0\Feestkassa.dll
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\bin\Debug\net6.0\Feestkassa.pdb
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\obj\Debug\net6.0\Feestkassa.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\obj\Debug\net6.0\Feestkassa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\obj\Debug\net6.0\Feestkassa.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\obj\Debug\net6.0\Feestkassa.AssemblyInfo.cs
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\obj\Debug\net6.0\Feestkassa.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\obj\Debug\net6.0\Feestkassa.dll
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\obj\Debug\net6.0\refint\Feestkassa.dll
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\obj\Debug\net6.0\Feestkassa.pdb
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\obj\Debug\net6.0\Feestkassa.genruntimeconfig.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Feestkassa\obj\Debug\net6.0\ref\Feestkassa.dll

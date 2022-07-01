@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\bin\Debug\net6.0\AssingmentsHoofdStukDrie.exe
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\bin\Debug\net6.0\AssingmentsHoofdStukDrie.deps.json
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\bin\Debug\net6.0\AssingmentsHoofdStukDrie.runtimeconfig.json
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\bin\Debug\net6.0\AssingmentsHoofdStukDrie.dll
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\bin\Debug\net6.0\AssingmentsHoofdStukDrie.pdb
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\obj\Debug\net6.0\AssingmentsHoofdStukDrie.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\obj\Debug\net6.0\AssingmentsHoofdStukDrie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\obj\Debug\net6.0\AssingmentsHoofdStukDrie.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\obj\Debug\net6.0\AssingmentsHoofdStukDrie.AssemblyInfo.cs
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\obj\Debug\net6.0\AssingmentsHoofdStukDrie.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\obj\Debug\net6.0\AssingmentsHoofdStukDrie.dll
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\obj\Debug\net6.0\refint\AssingmentsHoofdStukDrie.dll
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\obj\Debug\net6.0\AssingmentsHoofdStukDrie.pdb
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\obj\Debug\net6.0\AssingmentsHoofdStukDrie.genruntimeconfig.cache
+C:\Users\arnob\source\repos\AssingmentsHoofdStukDrie\AssingmentsHoofdStukDrie\obj\Debug\net6.0\ref\AssingmentsHoofdStukDrie.dll

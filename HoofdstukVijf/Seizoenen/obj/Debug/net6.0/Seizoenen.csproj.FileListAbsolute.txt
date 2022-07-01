@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\bin\Debug\net6.0\Seizoenen.exe
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\bin\Debug\net6.0\Seizoenen.deps.json
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\bin\Debug\net6.0\Seizoenen.runtimeconfig.json
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\bin\Debug\net6.0\Seizoenen.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\bin\Debug\net6.0\Seizoenen.pdb
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\obj\Debug\net6.0\Seizoenen.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\obj\Debug\net6.0\Seizoenen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\obj\Debug\net6.0\Seizoenen.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\obj\Debug\net6.0\Seizoenen.AssemblyInfo.cs
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\obj\Debug\net6.0\Seizoenen.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\obj\Debug\net6.0\Seizoenen.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\obj\Debug\net6.0\refint\Seizoenen.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\obj\Debug\net6.0\Seizoenen.pdb
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\obj\Debug\net6.0\Seizoenen.genruntimeconfig.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\Seizoenen\obj\Debug\net6.0\ref\Seizoenen.dll

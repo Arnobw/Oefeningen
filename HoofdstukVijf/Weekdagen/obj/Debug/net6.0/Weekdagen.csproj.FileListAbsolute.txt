@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\obj\Debug\net6.0\Weekdagen.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\obj\Debug\net6.0\Weekdagen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\obj\Debug\net6.0\Weekdagen.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\obj\Debug\net6.0\Weekdagen.AssemblyInfo.cs
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\obj\Debug\net6.0\Weekdagen.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\bin\Debug\net6.0\Weekdagen.exe
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\bin\Debug\net6.0\Weekdagen.deps.json
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\bin\Debug\net6.0\Weekdagen.runtimeconfig.json
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\bin\Debug\net6.0\Weekdagen.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\bin\Debug\net6.0\Weekdagen.pdb
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\obj\Debug\net6.0\Weekdagen.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\obj\Debug\net6.0\refint\Weekdagen.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\obj\Debug\net6.0\Weekdagen.pdb
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\obj\Debug\net6.0\Weekdagen.genruntimeconfig.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\Weekdagen\obj\Debug\net6.0\ref\Weekdagen.dll

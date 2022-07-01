@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\bin\Debug\net6.0\OhmBerekenaar.exe
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\bin\Debug\net6.0\OhmBerekenaar.deps.json
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\bin\Debug\net6.0\OhmBerekenaar.runtimeconfig.json
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\bin\Debug\net6.0\OhmBerekenaar.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\bin\Debug\net6.0\OhmBerekenaar.pdb
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\obj\Debug\net6.0\OhmBerekenaar.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\obj\Debug\net6.0\OhmBerekenaar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\obj\Debug\net6.0\OhmBerekenaar.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\obj\Debug\net6.0\OhmBerekenaar.AssemblyInfo.cs
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\obj\Debug\net6.0\OhmBerekenaar.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\obj\Debug\net6.0\OhmBerekenaar.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\obj\Debug\net6.0\refint\OhmBerekenaar.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\obj\Debug\net6.0\OhmBerekenaar.pdb
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\obj\Debug\net6.0\OhmBerekenaar.genruntimeconfig.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\OhmBerekenaar\obj\Debug\net6.0\ref\OhmBerekenaar.dll

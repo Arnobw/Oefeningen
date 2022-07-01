@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\bin\Debug\net6.0\RNGesus.exe
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\bin\Debug\net6.0\RNGesus.deps.json
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\bin\Debug\net6.0\RNGesus.runtimeconfig.json
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\bin\Debug\net6.0\RNGesus.dll
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\bin\Debug\net6.0\RNGesus.pdb
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\obj\Debug\net6.0\RNGesus.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\obj\Debug\net6.0\RNGesus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\obj\Debug\net6.0\RNGesus.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\obj\Debug\net6.0\RNGesus.AssemblyInfo.cs
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\obj\Debug\net6.0\RNGesus.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\obj\Debug\net6.0\RNGesus.dll
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\obj\Debug\net6.0\refint\RNGesus.dll
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\obj\Debug\net6.0\RNGesus.pdb
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\obj\Debug\net6.0\RNGesus.genruntimeconfig.cache
+C:\Users\arnob\source\repos\HoofdstukVier\RNGesus\obj\Debug\net6.0\ref\RNGesus.dll

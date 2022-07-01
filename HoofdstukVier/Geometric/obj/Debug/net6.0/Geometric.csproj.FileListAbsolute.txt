@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\bin\Debug\net6.0\Geometric.exe
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\bin\Debug\net6.0\Geometric.deps.json
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\bin\Debug\net6.0\Geometric.runtimeconfig.json
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\bin\Debug\net6.0\Geometric.dll
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\bin\Debug\net6.0\Geometric.pdb
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\obj\Debug\net6.0\Geometric.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\obj\Debug\net6.0\Geometric.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\obj\Debug\net6.0\Geometric.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\obj\Debug\net6.0\Geometric.AssemblyInfo.cs
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\obj\Debug\net6.0\Geometric.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\obj\Debug\net6.0\Geometric.dll
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\obj\Debug\net6.0\refint\Geometric.dll
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\obj\Debug\net6.0\Geometric.pdb
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\obj\Debug\net6.0\Geometric.genruntimeconfig.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Geometric\obj\Debug\net6.0\ref\Geometric.dll

@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\bin\Debug\net6.0\Supercomputer.exe
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\bin\Debug\net6.0\Supercomputer.deps.json
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\bin\Debug\net6.0\Supercomputer.runtimeconfig.json
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\bin\Debug\net6.0\Supercomputer.dll
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\bin\Debug\net6.0\Supercomputer.pdb
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\obj\Debug\net6.0\Supercomputer.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\obj\Debug\net6.0\Supercomputer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\obj\Debug\net6.0\Supercomputer.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\obj\Debug\net6.0\Supercomputer.AssemblyInfo.cs
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\obj\Debug\net6.0\Supercomputer.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\obj\Debug\net6.0\Supercomputer.dll
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\obj\Debug\net6.0\refint\Supercomputer.dll
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\obj\Debug\net6.0\Supercomputer.pdb
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\obj\Debug\net6.0\Supercomputer.genruntimeconfig.cache
+C:\Users\arnob\source\repos\HoofdstukVier\Supercomputer\obj\Debug\net6.0\ref\Supercomputer.dll
