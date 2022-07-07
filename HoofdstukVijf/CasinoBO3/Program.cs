@@ -9,35 +9,36 @@ Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine("Geef aub uw eerste getal in:");
 Console.ResetColor();
 Vraag();
-void Vraag() {
+
+void Vraag()
+{
     Number = RNG.Next(1, 6);
     Response = int.Parse(Console.ReadLine());
     Check();
 };
 
-void Check() {
-    if (Counter == 3)
+void Check()
+{
+    if (Counter >= 3)
     {
         Console.WriteLine("Geweldig, u wint een auto");
     }
-    else {
+    else
+    {
         if (Response == Number)
         {
-            
             Counter++;
             Console.WriteLine($"Correct antwoord! Het was inderdaad {Number}, \n Dat is al {Counter} op rij.");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Raad nu het volgende getal:");
             Console.ResetColor();
             Vraag();
-
         }
-        else {
+        else
+        {
             Console.ForegroundColor = ConsoleColor.Red;
             Hp--;
             Console.WriteLine("Helaas, hier stopt de pret");
         };
     };
-
-
 };

@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\bin\Debug\net6.0\OefeningenArray.exe
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\bin\Debug\net6.0\OefeningenArray.deps.json
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\bin\Debug\net6.0\OefeningenArray.runtimeconfig.json
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\bin\Debug\net6.0\OefeningenArray.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\bin\Debug\net6.0\OefeningenArray.pdb
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\obj\Debug\net6.0\OefeningenArray.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\obj\Debug\net6.0\OefeningenArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\obj\Debug\net6.0\OefeningenArray.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\obj\Debug\net6.0\OefeningenArray.AssemblyInfo.cs
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\obj\Debug\net6.0\OefeningenArray.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\obj\Debug\net6.0\OefeningenArray.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\obj\Debug\net6.0\refint\OefeningenArray.dll
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\obj\Debug\net6.0\OefeningenArray.pdb
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\obj\Debug\net6.0\OefeningenArray.genruntimeconfig.cache
+C:\Users\arnob\source\repos\HoofdstukVijf\OefeningenArray\obj\Debug\net6.0\ref\OefeningenArray.dll

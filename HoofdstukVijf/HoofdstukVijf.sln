@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtraOefMethode", "ExtraOef
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmDefault", "FilmDefault\FilmDefault.csproj", "{0982BD0E-C1A2-4244-A087-E4A4594ADCB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz", "Quiz\Quiz.csproj", "{80FFD0E7-5177-4680-AAA0-7216C923C53C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiz", "Quiz\Quiz.csproj", "{80FFD0E7-5177-4680-AAA0-7216C923C53C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seizoenen", "Seizoenen\Seizoenen.csproj", "{1F22568C-E28B-46A3-92BA-7E43C4E9668A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seizoenen", "Seizoenen\Seizoenen.csproj", "{1F22568C-E28B-46A3-92BA-7E43C4E9668A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OefeningenArray", "OefeningenArray\OefeningenArray.csproj", "{9FA5CB93-D472-4395-9E17-3D694945B45D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{1F22568C-E28B-46A3-92BA-7E43C4E9668A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F22568C-E28B-46A3-92BA-7E43C4E9668A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F22568C-E28B-46A3-92BA-7E43C4E9668A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA5CB93-D472-4395-9E17-3D694945B45D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA5CB93-D472-4395-9E17-3D694945B45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA5CB93-D472-4395-9E17-3D694945B45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA5CB93-D472-4395-9E17-3D694945B45D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -88,30 +88,30 @@ void Total() {
     }
 };
 
-//void makeQuestion(string question, string choice1, string choice2, string choice3, string correct) {
-//    Console.WriteLine($"{question}\nA.{choice1}\nB.{choice2}\nC.{choice3}");
-//    Console.WriteLine("Bevestig uw keuze met A, B, of C in de console");
-//    string Answer = Console.ReadLine();
-//        if (Answer == correct)
-//    {
-//        Score += 2;
-//        Console.ForegroundColor = ConsoleColor.Green;
-//        Console.WriteLine($"Correct! Uw score is nu {Score}");
+void makeQuestion(string question, string choice1, string choice2, string choice3, string correct) {
+    Console.WriteLine($"{question}\nA.{choice1}\nB.{choice2}\nC.{choice3}");
+    Console.WriteLine("Bevestig uw keuze met A, B, of C in de console");
+    string Answer = Console.ReadLine();
+        if (Answer == correct)
+    {
+        Score += 2;
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine($"Correct! Uw score is nu {Score}");
 
-//    }
-//    else {
-//        Score--;
-//        Console.ForegroundColor = ConsoleColor.Red;
-//        Console.Write("Fout, het juiste antwoord was ");
-//        Console.ForegroundColor= ConsoleColor.Magenta;
-//        Console.Write(correct);
-//        Console.ResetColor();
-//    };
-    
-//};
+    }
+    else {
+        Score--;
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.Write("Fout, het juiste antwoord was ");
+        Console.ForegroundColor= ConsoleColor.Magenta;
+        Console.Write(correct);
+        Console.ResetColor();
+    };
+  
+};
 
-//makeQuestion("wat zegt een hond?", "woef", "miauw", "blub", "woef");
-Vraag1();
-Vraag2();
-Vraag3();
-Total();
+makeQuestion("wat zegt een hond?", "woef", "miauw", "blub", "woef");
+//Vraag1();
+//Vraag2();
+//Vraag3();
+//Total();
