@@ -18,14 +18,16 @@ namespace ConsoleMusicPlayer
         private void PlaySong()
         {
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
-            Console.WriteLine(musicFolder);
-            _player.URL = Path.Combine(musicFolder, "supermarkt.mp3");
+            Console.WriteLine("Kies een nummer om af te spelen");
+            string userInput = Console.ReadLine();
+            _player.URL = Path.Combine(musicFolder, userInput);
             _player.controls.play();
             RunApplication();
         }
 
         public void RunApplication()
         {
+            GetFiles();
             _frontEnd.PrintMenu();
             string userInput = Console.ReadLine();
             HandleUserInput(userInput);
@@ -77,7 +79,6 @@ namespace ConsoleMusicPlayer
             Console.WriteLine("Geef het gewenste volume in");
             int userVolume = int.Parse(Console.ReadLine());
             //TODO check on int
-            Console.WriteLine($"Huidig volume: {_player.settings.volume}");
             if (userVolume > 100 || userVolume < 0)
             {
                 Console.WriteLine("Geef enkel een waarde tussen 0 en 100 in aub");
@@ -87,6 +88,7 @@ namespace ConsoleMusicPlayer
             {
                 _player.settings.volume = userVolume;
             }
+            Console.WriteLine($"Huidig volume: {_player.settings.volume}");
             RunApplication();
         }
 
@@ -94,6 +96,17 @@ namespace ConsoleMusicPlayer
         {
             _player.controls.stop();
             RunApplication();
+        }
+
+        private string[] GetFiles()
+        {
+            string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
+            string[] musicFiles = Directory.GetFiles(musicFolder, "*.mp3");
+            foreach (string song in musicFiles)
+            {
+                Console.WriteLine(song);
+            }
+            return musicFiles;
         }
     }
 }

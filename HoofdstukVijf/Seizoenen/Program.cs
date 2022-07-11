@@ -1,6 +1,4 @@
-﻿//ik moet warm en koud nog toevoegen lol
-
-using Seasons;
+﻿using Seasons;
 
 bool Hot = false;
 Console.WriteLine("Geef aan welke maand uw favoriet is, 1 voor Januari etc...");
