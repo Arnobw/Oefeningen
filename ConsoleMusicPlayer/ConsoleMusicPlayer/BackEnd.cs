@@ -15,45 +15,71 @@ namespace ConsoleMusicPlayer
             _frontEnd = frontEnd;
         }
 
-        private void PlaySong()
+        public void RunApplication()
+        {
+            GetFiles();
+            _frontEnd.PrintMenu();
+            _frontEnd.DisplayVolumeBar(GetCurrentVolume());
+            Commands userInput = _frontEnd.GetUserAction();
+            HandleUserInput(userInput);
+        }
+
+        private void PlaySong(string userInput)
         {
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
-            Console.WriteLine("Kies een nummer om af te spelen");
-            string userInput = Console.ReadLine();
             _player.URL = Path.Combine(musicFolder, userInput);
             _player.controls.play();
             RunApplication();
         }
 
-        public void RunApplication()
+        private void HandleUserInput(Commands command)
         {
-            GetFiles();
-            _frontEnd.PrintMenu();
-            string userInput = Console.ReadLine();
-            HandleUserInput(userInput);
-            Console.ReadKey();
-        }
-
-        private void HandleUserInput(string userInput)
-        {
-            switch (userInput)
+            switch (command)
             {
-                case "p":
+                case Commands.PlaySong:
+                    string song = _frontEnd.GetSong();
+                    PlaySong(song);
+                    break;
+
+                case Commands.TogglePause:
                     TogglePause(_isPlaying);
                     break;
 
-                case "vol":
+                case Commands.SetVolume:
                     SetVolume();
                     break;
 
-                case "s":
+                case Commands.StopSong:
                     StopMusic();
                     break;
 
-                case "play":
-                    PlaySong();
+                case Commands.ExitPlayer:
+                    ExitPlayer();
+                    break;
+
+                case Commands.SongList:
+                    DisplaySongs(GetFiles());
+                    break;
+
+                default:
+                    _frontEnd.PrintErrorMessage("Ongeldige keuze, kies opnieuw");
                     break;
             };
+        }
+
+        //TODO dit moet naar frontend maar dan werkt de recursie niet meer :(
+        public void DisplaySongs(string[] musicFiles)
+        {
+            foreach (string song in musicFiles)
+            {
+                Console.WriteLine(Path.GetFileNameWithoutExtension(song));
+            }
+            RunApplication();
+        }
+
+        private void ExitPlayer()
+        {
+            Environment.Exit(0);
         }
 
         private void TogglePause(bool isPlaying)
@@ -74,7 +100,22 @@ namespace ConsoleMusicPlayer
             RunApplication();
         }
 
-        private void SetVolume()
+        /// <summary>
+        /// TODO setvolume moet input parameter opvragen (int volume)
+        /// TODO volume opvragen verhuizen naar frontend
+        /// TODO check if int
+        ///
+        /// </summary>
+        /// <returns></returns>
+        ///
+
+        private int GetCurrentVolume()
+        {
+            int currentVolume = _player.settings.volume;
+            return currentVolume;
+        }
+
+        private int SetVolume()
         {
             Console.WriteLine("Geef het gewenste volume in");
             int userVolume = int.Parse(Console.ReadLine());
@@ -88,9 +129,12 @@ namespace ConsoleMusicPlayer
             {
                 _player.settings.volume = userVolume;
             }
-            Console.WriteLine($"Huidig volume: {_player.settings.volume}");
             RunApplication();
+            return userVolume;
         }
+
+        //TODO remove duplicate code
+        // input parameter + frontend
 
         private void StopMusic()
         {
@@ -98,14 +142,12 @@ namespace ConsoleMusicPlayer
             RunApplication();
         }
 
+        //nice to have: nummers in folder in array zetten en na elkaar afspelen
         private string[] GetFiles()
         {
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
             string[] musicFiles = Directory.GetFiles(musicFolder, "*.mp3");
-            foreach (string song in musicFiles)
-            {
-                Console.WriteLine(song);
-            }
+            //frontend
             return musicFiles;
         }
     }

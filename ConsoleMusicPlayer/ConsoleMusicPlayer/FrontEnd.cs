@@ -2,12 +2,78 @@
 {
     internal class FrontEnd
     {
+        public void PrintHeader()
+        {
+            //TODO maak een mooie header
+        }
+
         public void PrintMenu()
         {
-            Console.WriteLine("play > speel de gekozen muziek");
-            Console.WriteLine("p > pauzeren");
-            Console.WriteLine("vol > volume omhoog/omlaag");
-            Console.WriteLine("s > stop de muziek :(");
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine("1 > Geef een nummer in om af te spelen");
+            Console.WriteLine("2 > Pauzeer of hervat");
+            Console.WriteLine("3 > Volume omhoog/omlaag");
+            Console.WriteLine("4 > Stop de muziek");
+            Console.WriteLine("5 > Toon alle muziek");
+            Console.WriteLine("9 > Sluit de speler af");
+            Console.ResetColor();
+        }
+
+        public string GetSong()
+        {
+            Console.WriteLine("Kies een nummer om af te spelen");
+            string userInput = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(userInput))
+            {
+                PrintErrorMessage("Geef aub een waarde in");
+            }
+            return userInput;
+        }
+
+        public Commands GetUserAction()
+        {
+            Console.WriteLine("Geef aub een keuze in");
+            bool canConvert;
+            int userInput = 0;
+            canConvert = int.TryParse(Console.ReadLine(), out userInput);
+
+            if (canConvert)
+            {
+                return (Commands)userInput;
+            }
+            else
+            {
+                PrintErrorMessage("Ongeldig getal");
+                return GetUserAction();
+            }
+        }
+
+        public void PrintErrorMessage(string message, ConsoleColor color = ConsoleColor.Red)
+        {
+            Console.ForegroundColor = color;
+            Console.WriteLine(message);
+            Console.ResetColor();
+        }
+
+        public void DisplayVolumeBar(int volume)
+        {
+            Console.WriteLine($"Huidig volume: {volume}");
+            string[] volumeBar = new string[11];
+
+            for (int i = 0; i < volumeBar.Length; i++)
+            {
+                volumeBar[i] = "-";
+            }
+            int slider = volume / 10;
+            volumeBar[slider] = "||";
+
+            foreach (string value in volumeBar)
+            {
+                Console.Write(value);
+            }
+            Console.WriteLine("\n");
         }
     }
 }
