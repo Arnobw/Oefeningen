@@ -20,15 +20,10 @@
             Console.ResetColor();
         }
 
-        public string GetSong()
+        public int GetSong()
         {
             Console.WriteLine("Kies een nummer om af te spelen");
-            string userInput = Console.ReadLine();
-
-            if (string.IsNullOrWhiteSpace(userInput))
-            {
-                PrintErrorMessage("Geef aub een waarde in");
-            }
+            int userInput = int.Parse(Console.ReadLine());
             return userInput;
         }
 

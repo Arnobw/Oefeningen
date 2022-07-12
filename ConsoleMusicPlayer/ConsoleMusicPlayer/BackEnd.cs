@@ -24,10 +24,11 @@ namespace ConsoleMusicPlayer
             HandleUserInput(userInput);
         }
 
-        private void PlaySong(string userInput)
+        private void PlaySong(int userInput)
         {
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
-            _player.URL = Path.Combine(musicFolder, userInput);
+            string[] musicFiles = GetFiles();
+            _player.URL = Path.Combine(musicFolder, musicFiles[userInput+1]);
             _player.controls.play();
             RunApplication();
         }
@@ -37,7 +38,7 @@ namespace ConsoleMusicPlayer
             switch (command)
             {
                 case Commands.PlaySong:
-                    string song = _frontEnd.GetSong();
+                    int song = _frontEnd.GetSong();
                     PlaySong(song);
                     break;
 
@@ -70,9 +71,12 @@ namespace ConsoleMusicPlayer
         //TODO dit moet naar frontend maar dan werkt de recursie niet meer :(
         public void DisplaySongs(string[] musicFiles)
         {
+            int songNumber = 0;
             foreach (string song in musicFiles)
             {
-                Console.WriteLine(Path.GetFileNameWithoutExtension(song));
+
+                songNumber++;
+                Console.WriteLine($"{songNumber}-{Path.GetFileNameWithoutExtension(song)}");
             }
             RunApplication();
         }
