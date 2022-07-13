@@ -17,9 +17,11 @@ namespace ConsoleMusicPlayer
 
         public void RunApplication()
         {
+            Console.Clear();
             GetFiles();
-            _frontEnd.DisplaySongs(GetFiles());
+
             _frontEnd.PrintMenu();
+            _frontEnd.DisplaySongs(GetFiles());
             _frontEnd.DisplayVolumeBar(GetCurrentVolume());
             PrintMetadata();
             Commands userInput = _frontEnd.GetUserAction();
@@ -84,9 +86,15 @@ namespace ConsoleMusicPlayer
                 case Commands.SongList:
                     _frontEnd.DisplaySongs(GetFiles());
                     break;
-
+                case Commands.Penta:
+                    _frontEnd.printPenta();
+                    break;
+                case Commands.Hela:
+                    _frontEnd.PrintErrorMessage("foei", ConsoleColor.Magenta);
+                        break;
                 default:
                     _frontEnd.PrintErrorMessage("Ongeldige keuze, kies opnieuw");
+                    RunApplication();
                     break;
             };
         }

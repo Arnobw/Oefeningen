@@ -8,6 +8,8 @@
         SetVolume = 3,
         StopSong = 4,
         SongList = 5,
+        Penta = 666,
+        Hela = 69,
         ExitPlayer = 9
     };
 };
