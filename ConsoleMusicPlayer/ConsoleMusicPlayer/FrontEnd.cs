@@ -4,16 +4,14 @@
     {
         public void PrintHeader()
         {
-
-
             string playerHeader = @"
-               _ _           _                    __ ___ 
+               _ _           _                    __ ___
   _ __  ___ __| (_)__ _ _ __| |__ _ _  _ ___ _ _ / // _ \
  | '  \/ -_) _` | / _` | '_ \ / _` | || / -_) '_/ _ \_, /
- |_|_|_\___\__,_|_\__,_| .__/_\__,_|\_, \___|_| \___//_/ 
-                       |_|          |__/               
-The ultimate device for playing your music songs!!1!1!!
-";          Console.ForegroundColor = ConsoleColor.Magenta;
+ |_|_|_\___\__,_|_\__,_| .__/_\__,_|\_, \___|_| \___//_/
+                       |_|          |__/
+The ultimate console app for playing your music songs!!1!1!!
+"; Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine(playerHeader);
         }
 
@@ -56,15 +54,15 @@ The ultimate device for playing your music songs!!1!1!!
                     int paddingSize = i.ToString().Length;
                     if (i < 10)
                         Console.Write($"|{i + 1} - {Path.GetFileNameWithoutExtension(musicFiles[i]).PadRight(25 + paddingSize)}");
-                    else {
+                    else
+                    {
                         Console.Write($"|{i + 1} - {Path.GetFileNameWithoutExtension(musicFiles[i]).PadRight(25)}");
                     }
-                    
-                } else
+                }
+                else
                 {
                     Console.WriteLine($"|{i + 1} - {Path.GetFileNameWithoutExtension(musicFiles[i])}");
                 }
-                
             }
             Console.ResetColor();
             Console.WriteLine("\n");
@@ -114,7 +112,7 @@ The ultimate device for playing your music songs!!1!1!!
             Console.Write("[");
 
             string[] volumeBar = new string[11];
-            
+
             for (int i = 0; i < volumeBar.Length; i++)
             {
                 volumeBar[i] = "--";
@@ -131,7 +129,7 @@ The ultimate device for playing your music songs!!1!1!!
             Console.WriteLine("\n");
         }
 
-        string penta = @"
+        private string penta = @"
 
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMds+:--------:+sdNMMMMMMMMMMM
@@ -156,12 +154,12 @@ MMMMMMMMNs:./shmMMh  yMMNds/.:smMMMMMMMM
 MMMMMMMMMMMMdy+/---``---:+sdMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 ";
-        public void printPenta() {
+
+        public void printPenta()
+        {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(penta);
         }
     }
-
-
 }

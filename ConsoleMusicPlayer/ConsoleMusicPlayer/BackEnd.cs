@@ -32,7 +32,7 @@ namespace ConsoleMusicPlayer
         {
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
             string[] musicFiles = GetFiles();
-            _player.URL = Path.Combine(musicFolder, musicFiles[userInput + 1]);
+            _player.URL = Path.Combine(musicFolder, musicFiles[userInput-1]);
             _player.controls.play();
 
             RunApplication();
@@ -86,12 +86,15 @@ namespace ConsoleMusicPlayer
                 case Commands.SongList:
                     _frontEnd.DisplaySongs(GetFiles());
                     break;
+
                 case Commands.Penta:
                     _frontEnd.printPenta();
                     break;
+
                 case Commands.Hela:
                     _frontEnd.PrintErrorMessage("foei", ConsoleColor.Magenta);
-                        break;
+                    break;
+
                 default:
                     _frontEnd.PrintErrorMessage("Ongeldige keuze, kies opnieuw");
                     RunApplication();
@@ -122,6 +125,7 @@ namespace ConsoleMusicPlayer
 
         private int GetCurrentVolume()
         {
+            Thread.Sleep(100);
             int currentVolume = _player.settings.volume;
             return currentVolume;
         }
@@ -155,14 +159,11 @@ namespace ConsoleMusicPlayer
             return userVolume;
         }
 
-
-
         private void StopMusic()
         {
             _player.controls.stop();
             RunApplication();
         }
-
 
         private string[] GetFiles()
         {
