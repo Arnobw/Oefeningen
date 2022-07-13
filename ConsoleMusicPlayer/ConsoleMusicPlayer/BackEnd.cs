@@ -120,17 +120,6 @@ namespace ConsoleMusicPlayer
             RunApplication();
         }
 
-        /// <summary>
-        /// TODO setvolume moet input parameter opvragen (int volume)
-        /// TODO volume opvragen verhuizen naar frontend
-        /// TODO check if int
-        ///
-        /// </summary>
-        /// <returns></returns>
-        ///
-
-        //TODO store selected song
-        //TODO print selected song
         private int GetCurrentVolume()
         {
             int currentVolume = _player.settings.volume;
@@ -141,7 +130,7 @@ namespace ConsoleMusicPlayer
         {
             Console.WriteLine("Geef het gewenste volume in");
             int userVolume;
-            //TODO check on int
+
             bool canConvert;
             canConvert = int.TryParse(Console.ReadLine(), out userVolume);
             if (canConvert)
@@ -166,7 +155,7 @@ namespace ConsoleMusicPlayer
             return userVolume;
         }
 
-        // input parameter + frontend
+
 
         private void StopMusic()
         {
@@ -174,7 +163,7 @@ namespace ConsoleMusicPlayer
             RunApplication();
         }
 
-        //nice to have: nummers in folder in array zetten en na elkaar afspelen
+
         private string[] GetFiles()
         {
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);

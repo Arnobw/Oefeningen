@@ -4,7 +4,7 @@
     {
         public void PrintHeader()
         {
-            //TODO maak een mooie header
+
 
             string playerHeader = @"
                _ _           _                    __ ___ 
