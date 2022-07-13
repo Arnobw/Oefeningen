@@ -18,8 +18,10 @@ namespace ConsoleMusicPlayer
         public void RunApplication()
         {
             GetFiles();
+            _frontEnd.DisplaySongs(GetFiles());
             _frontEnd.PrintMenu();
             _frontEnd.DisplayVolumeBar(GetCurrentVolume());
+            PrintMetadata();
             Commands userInput = _frontEnd.GetUserAction();
             HandleUserInput(userInput);
         }
@@ -28,9 +30,30 @@ namespace ConsoleMusicPlayer
         {
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
             string[] musicFiles = GetFiles();
-            _player.URL = Path.Combine(musicFolder, musicFiles[userInput+1]);
+            _player.URL = Path.Combine(musicFolder, musicFiles[userInput + 1]);
             _player.controls.play();
+
             RunApplication();
+        }
+
+        private void PrintMetadata()
+        {
+            Thread.Sleep(100);
+            MetadataDTO metadata = GetMetadata(_player.currentMedia);
+            _frontEnd.PrintMetadata(metadata);
+        }
+
+        public MetadataDTO GetMetadata(IWMPMedia media)
+        {
+            MetadataDTO metadata = new MetadataDTO();
+            if (media != null)
+            {
+                metadata.Artist = media.getItemInfo("Artist");
+                metadata.Title = media.getItemInfo("Title");
+                metadata.Genre = media.getItemInfo("Genre");
+            }
+
+            return metadata;
         }
 
         private void HandleUserInput(Commands command)
@@ -59,26 +82,13 @@ namespace ConsoleMusicPlayer
                     break;
 
                 case Commands.SongList:
-                    DisplaySongs(GetFiles());
+                    _frontEnd.DisplaySongs(GetFiles());
                     break;
 
                 default:
                     _frontEnd.PrintErrorMessage("Ongeldige keuze, kies opnieuw");
                     break;
             };
-        }
-
-        //TODO dit moet naar frontend maar dan werkt de recursie niet meer :(
-        public void DisplaySongs(string[] musicFiles)
-        {
-            int songNumber = 0;
-            foreach (string song in musicFiles)
-            {
-
-                songNumber++;
-                Console.WriteLine($"{songNumber}-{Path.GetFileNameWithoutExtension(song)}");
-            }
-            RunApplication();
         }
 
         private void ExitPlayer()
@@ -88,18 +98,16 @@ namespace ConsoleMusicPlayer
 
         private void TogglePause(bool isPlaying)
         {
-            switch (isPlaying)
+            if (isPlaying)
             {
-                case true:
-                    _player.controls.pause();
-                    _isPlaying = false;
-                    break;
+                _player.controls.pause();
+            }
+            else
+            {
+                _player.controls.play();
+            }
 
-                case false:
-                    _player.controls.play();
-                    _isPlaying = true;
-                    break;
-            };
+            _isPlaying = !_isPlaying;
 
             RunApplication();
         }
@@ -113,6 +121,8 @@ namespace ConsoleMusicPlayer
         /// <returns></returns>
         ///
 
+        //TODO store selected song
+        //TODO print selected song
         private int GetCurrentVolume()
         {
             int currentVolume = _player.settings.volume;
@@ -122,22 +132,32 @@ namespace ConsoleMusicPlayer
         private int SetVolume()
         {
             Console.WriteLine("Geef het gewenste volume in");
-            int userVolume = int.Parse(Console.ReadLine());
+            int userVolume;
             //TODO check on int
-            if (userVolume > 100 || userVolume < 0)
+            bool canConvert;
+            canConvert = int.TryParse(Console.ReadLine(), out userVolume);
+            if (canConvert)
             {
-                Console.WriteLine("Geef enkel een waarde tussen 0 en 100 in aub");
-                SetVolume();
+                if (userVolume > 100 || userVolume < 0)
+                {
+                    Console.WriteLine("Geef enkel een waarde tussen 0 en 100 in aub");
+                    SetVolume();
+                }
+                else
+                {
+                    _player.settings.volume = userVolume;
+                }
             }
             else
             {
-                _player.settings.volume = userVolume;
+                _frontEnd.PrintErrorMessage("Ongeldig getal");
+                return SetVolume();
             }
+
             RunApplication();
             return userVolume;
         }
 
-        //TODO remove duplicate code
         // input parameter + frontend
 
         private void StopMusic()

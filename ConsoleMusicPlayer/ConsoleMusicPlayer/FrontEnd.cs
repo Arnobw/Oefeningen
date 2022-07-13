@@ -15,7 +15,6 @@
             Console.WriteLine("2 > Pauzeer of hervat");
             Console.WriteLine("3 > Volume omhoog/omlaag");
             Console.WriteLine("4 > Stop de muziek");
-            Console.WriteLine("5 > Toon alle muziek");
             Console.WriteLine("9 > Sluit de speler af");
             Console.ResetColor();
         }
@@ -24,7 +23,27 @@
         {
             Console.WriteLine("Kies een nummer om af te spelen");
             int userInput = int.Parse(Console.ReadLine());
+            StoreSelectedSong(userInput);
             return userInput;
+        }
+
+        private int StoreSelectedSong(int selectedSong)
+        {
+            return selectedSong;
+        }
+
+        public void DisplaySongs(string[] musicFiles)
+        {
+            for (int i = 0; i < musicFiles.Length; i++)
+            {
+                Console.WriteLine($"{i + 1}-{Path.GetFileNameWithoutExtension(musicFiles[i])}");
+            }
+        }
+
+        public void PrintMetadata(MetadataDTO dto)
+        {
+            Console.WriteLine("NOW PLAYING");
+            Console.WriteLine($"{dto.Title}, {dto.Artist}, {dto.Genre}");
         }
 
         public Commands GetUserAction()
