@@ -32,7 +32,7 @@ namespace ConsoleMusicPlayer
         {
             string musicFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
             string[] musicFiles = GetFiles();
-            _player.URL = Path.Combine(musicFolder, musicFiles[userInput-1]);
+            _player.URL = Path.Combine(musicFolder, musicFiles[userInput - 1]);
             _player.controls.play();
 
             RunApplication();

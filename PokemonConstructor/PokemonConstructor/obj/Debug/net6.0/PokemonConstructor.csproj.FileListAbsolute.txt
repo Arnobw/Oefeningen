@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\bin\Debug\net6.0\PokemonConstructor.exe
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\bin\Debug\net6.0\PokemonConstructor.deps.json
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\bin\Debug\net6.0\PokemonConstructor.runtimeconfig.json
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\bin\Debug\net6.0\PokemonConstructor.dll
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\bin\Debug\net6.0\PokemonConstructor.pdb
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\obj\Debug\net6.0\PokemonConstructor.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\obj\Debug\net6.0\PokemonConstructor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\obj\Debug\net6.0\PokemonConstructor.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\obj\Debug\net6.0\PokemonConstructor.AssemblyInfo.cs
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\obj\Debug\net6.0\PokemonConstructor.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\obj\Debug\net6.0\PokemonConstructor.dll
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\obj\Debug\net6.0\refint\PokemonConstructor.dll
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\obj\Debug\net6.0\PokemonConstructor.pdb
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\obj\Debug\net6.0\PokemonConstructor.genruntimeconfig.cache
+C:\Users\arnob\source\repos\PokemonConstructor\PokemonConstructor\obj\Debug\net6.0\ref\PokemonConstructor.dll

@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\bin\Debug\net6.0\Pokkemon.exe
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\bin\Debug\net6.0\Pokkemon.deps.json
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\bin\Debug\net6.0\Pokkemon.runtimeconfig.json
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\bin\Debug\net6.0\Pokkemon.dll
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\bin\Debug\net6.0\Pokkemon.pdb
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\obj\Debug\net6.0\Pokkemon.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\obj\Debug\net6.0\Pokkemon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\obj\Debug\net6.0\Pokkemon.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\obj\Debug\net6.0\Pokkemon.AssemblyInfo.cs
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\obj\Debug\net6.0\Pokkemon.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\obj\Debug\net6.0\Pokkemon.dll
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\obj\Debug\net6.0\refint\Pokkemon.dll
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\obj\Debug\net6.0\Pokkemon.pdb
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\obj\Debug\net6.0\Pokkemon.genruntimeconfig.cache
+C:\Users\arnob\source\repos\Pokkemon\Pokkemon\obj\Debug\net6.0\ref\Pokkemon.dll

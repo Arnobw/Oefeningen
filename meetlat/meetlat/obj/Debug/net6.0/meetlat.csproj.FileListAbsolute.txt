@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\meetlat\meetlat\bin\Debug\net6.0\meetlat.exe
+C:\Users\arnob\source\repos\meetlat\meetlat\bin\Debug\net6.0\meetlat.deps.json
+C:\Users\arnob\source\repos\meetlat\meetlat\bin\Debug\net6.0\meetlat.runtimeconfig.json
+C:\Users\arnob\source\repos\meetlat\meetlat\bin\Debug\net6.0\meetlat.dll
+C:\Users\arnob\source\repos\meetlat\meetlat\bin\Debug\net6.0\meetlat.pdb
+C:\Users\arnob\source\repos\meetlat\meetlat\obj\Debug\net6.0\meetlat.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\meetlat\meetlat\obj\Debug\net6.0\meetlat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\meetlat\meetlat\obj\Debug\net6.0\meetlat.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\meetlat\meetlat\obj\Debug\net6.0\meetlat.AssemblyInfo.cs
+C:\Users\arnob\source\repos\meetlat\meetlat\obj\Debug\net6.0\meetlat.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\meetlat\meetlat\obj\Debug\net6.0\meetlat.dll
+C:\Users\arnob\source\repos\meetlat\meetlat\obj\Debug\net6.0\refint\meetlat.dll
+C:\Users\arnob\source\repos\meetlat\meetlat\obj\Debug\net6.0\meetlat.pdb
+C:\Users\arnob\source\repos\meetlat\meetlat\obj\Debug\net6.0\meetlat.genruntimeconfig.cache
+C:\Users\arnob\source\repos\meetlat\meetlat\obj\Debug\net6.0\ref\meetlat.dll

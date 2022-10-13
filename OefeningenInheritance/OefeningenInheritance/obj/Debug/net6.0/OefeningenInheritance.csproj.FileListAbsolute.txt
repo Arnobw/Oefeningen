@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\bin\Debug\net6.0\OefeningenInheritance.exe
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\bin\Debug\net6.0\OefeningenInheritance.deps.json
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\bin\Debug\net6.0\OefeningenInheritance.runtimeconfig.json
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\bin\Debug\net6.0\OefeningenInheritance.dll
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\bin\Debug\net6.0\OefeningenInheritance.pdb
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\obj\Debug\net6.0\OefeningenInheritance.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\obj\Debug\net6.0\OefeningenInheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\obj\Debug\net6.0\OefeningenInheritance.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\obj\Debug\net6.0\OefeningenInheritance.AssemblyInfo.cs
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\obj\Debug\net6.0\OefeningenInheritance.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\obj\Debug\net6.0\OefeningenInheritance.dll
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\obj\Debug\net6.0\refint\OefeningenInheritance.dll
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\obj\Debug\net6.0\OefeningenInheritance.pdb
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\obj\Debug\net6.0\OefeningenInheritance.genruntimeconfig.cache
+C:\Users\arnob\source\repos\OefeningenInheritance\OefeningenInheritance\obj\Debug\net6.0\ref\OefeningenInheritance.dll

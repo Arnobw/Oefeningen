@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\bin\Debug\net6.0\PizzaTime.exe
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\bin\Debug\net6.0\PizzaTime.deps.json
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\bin\Debug\net6.0\PizzaTime.runtimeconfig.json
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\bin\Debug\net6.0\PizzaTime.dll
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\bin\Debug\net6.0\PizzaTime.pdb
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\obj\Debug\net6.0\PizzaTime.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\obj\Debug\net6.0\PizzaTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\obj\Debug\net6.0\PizzaTime.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\obj\Debug\net6.0\PizzaTime.AssemblyInfo.cs
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\obj\Debug\net6.0\PizzaTime.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\obj\Debug\net6.0\PizzaTime.dll
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\obj\Debug\net6.0\refint\PizzaTime.dll
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\obj\Debug\net6.0\PizzaTime.pdb
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\obj\Debug\net6.0\PizzaTime.genruntimeconfig.cache
+C:\Users\arnob\source\repos\PizzaTime\PizzaTime\obj\Debug\net6.0\ref\PizzaTime.dll
