@@ -1,36 +1,51 @@
-﻿Dier Hond = new Dier();
-Paard Paard = new Paard();
+﻿Dier Hond = new Dier("woefke");
 
-Hond.IsHetEenDier = true;
-Hond.Eet();
-Paard.DierCheck();
 
+DuizendPoot Duizendpoot = new DuizendPoot("Harry Poten");
+Duizendpoot.VoortBeweging();
 
 
 
-class Dier
+
+
+
+
+public class Dier
 {
+
+    public Dier(string Name)
+    {
+        this.Name = Name;
+    }
+    protected int poten;
+
+    public string Name { get; }
+
+    public virtual void VoortBeweging()
+    {
+        poten += 4;
+
+    }
     public void Eet()
     {
         Console.WriteLine("nom nom nom");
     }
-    public bool IsHetEenDier { get; set; }
-    public virtual void DierCheck()
-    {
-        Console.WriteLine(IsHetEenDier);
-    }
+
+
 
 }
 
 
-class Paard : Dier
+public class DuizendPoot : Dier
 {
-
-    public string Name = "paart";
-    public override void DierCheck()
+    public DuizendPoot(string Name) : base(Name)
     {
-        Console.WriteLine("het is een paard");
     }
 
-
+    public override void VoortBeweging()
+    {
+        base.VoortBeweging();
+        poten += 996;
+        Console.WriteLine($"{this.Name} beweegt zich voort met {poten} aantal poten");
+    }
 }
