@@ -9,4 +9,7 @@ Console.WriteLine(acc.GetBalance());
 
 
 Console.WriteLine($"{acc.GetBalance()}EUR + {acc.AddFunds(1000)}EUR =  {acc.GetBalance()}EUR");
+Console.WriteLine($"{acc.GetBalance()}EUR + {acc.WithDrawFunds(1000)}EUR =  {acc.GetBalance()}EUR");
+
+acc.WithDrawFunds(7000);
 

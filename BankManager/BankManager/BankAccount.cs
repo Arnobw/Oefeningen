@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BankManager
+﻿namespace BankManager
 {
     public class BankAccount
     {
@@ -17,47 +11,40 @@ namespace BankManager
             this.name = name;
             this.funds = funds;
             this.number = number;
-
         }
 
         public double WithDrawFunds(double amount)
         {
-
-            if (funds < amount)
+            if (amount > funds)
             {
-
-                Console.WriteLine("NOT ENOUGH FUNDS TO WITHDRAW SPECIFIED AMOUNT", Console.ForegroundColor = ConsoleColor.Red);
-
                 double leftover = amount - funds;
-                amount = - leftover;
-                funds = -amount;
-                return leftover;
+                double OgFunds = funds;
+                funds += - (amount - leftover);
 
-            } else
 
-            funds = funds - amount;
+                Console.WriteLine($"NOT ENOUGH FUNDS TO WITHDRAW SPECIFIED AMOUNT {Environment.NewLine} WITHDRAWING {OgFunds} INSTEAD of {amount}! LEAVING OUT {leftover}, FUNDS ARE NOW {funds}EUR", Console.ForegroundColor = ConsoleColor.Red);
+                return amount;
+            }
+            else
+
+                funds = funds - amount;
             return amount;
         }
 
-            public double AddFunds(double amount)
+        public double AddFunds(double amount)
         {
-
             funds += amount;
             return amount;
         }
 
-        public double GetBalance() {
+        public double GetBalance()
+        {
             return this.funds;
         }
-
-
 
         public void PrintInfo()
         {
             Console.WriteLine($"{name}, {funds}, {number}");
         }
     }
-
-
-
 }
