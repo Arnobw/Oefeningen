@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\BankManager\BankManager\bin\Debug\net6.0\BankManager.exe
+C:\Users\arnob\source\repos\BankManager\BankManager\bin\Debug\net6.0\BankManager.deps.json
+C:\Users\arnob\source\repos\BankManager\BankManager\bin\Debug\net6.0\BankManager.runtimeconfig.json
+C:\Users\arnob\source\repos\BankManager\BankManager\bin\Debug\net6.0\BankManager.dll
+C:\Users\arnob\source\repos\BankManager\BankManager\bin\Debug\net6.0\BankManager.pdb
+C:\Users\arnob\source\repos\BankManager\BankManager\obj\Debug\net6.0\BankManager.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\BankManager\BankManager\obj\Debug\net6.0\BankManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\BankManager\BankManager\obj\Debug\net6.0\BankManager.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\BankManager\BankManager\obj\Debug\net6.0\BankManager.AssemblyInfo.cs
+C:\Users\arnob\source\repos\BankManager\BankManager\obj\Debug\net6.0\BankManager.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\BankManager\BankManager\obj\Debug\net6.0\BankManager.dll
+C:\Users\arnob\source\repos\BankManager\BankManager\obj\Debug\net6.0\refint\BankManager.dll
+C:\Users\arnob\source\repos\BankManager\BankManager\obj\Debug\net6.0\BankManager.pdb
+C:\Users\arnob\source\repos\BankManager\BankManager\obj\Debug\net6.0\BankManager.genruntimeconfig.cache
+C:\Users\arnob\source\repos\BankManager\BankManager\obj\Debug\net6.0\ref\BankManager.dll
