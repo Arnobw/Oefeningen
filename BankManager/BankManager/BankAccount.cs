@@ -31,15 +31,25 @@
             return amount;
         }
 
-        public double AddFunds(double amount)
+        public double AddFunds(double amount, BankAccount account)
         {
-            funds += amount;
+            account.funds += amount;
             return amount;
         }
 
-        public double GetBalance()
+        public double GetBalance(BankAccount account)
         {
-            return this.funds;
+            return account.funds;
+        }
+
+        public void TransferFunds(double amount, BankAccount acc1, BankAccount acc2)
+        {
+           double transfer = acc1.WithDrawFunds(amount);
+            acc2.AddFunds(transfer, acc2);
+
+            Console.WriteLine($"You have transferred {transfer} from {acc1.name}'s account to the account of {acc2.name}. {Environment.NewLine}" +
+                $"Leftover funds are now {acc1.GetBalance(acc1)}");
+            
         }
 
         public void PrintInfo()
