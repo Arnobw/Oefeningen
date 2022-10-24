@@ -1,4 +1,4 @@
-﻿Dier Hond = new Dier("woefke");
+﻿Animal Hond = new Animal("woefke");
 
 
 DuizendPoot Duizendpoot = new DuizendPoot("Harry Poten");
@@ -7,13 +7,20 @@ Duizendpoot.VoortBeweging();
 
 
 
+List<Animal> animals = new List<Animal>();
 
+animals.Add(Duizendpoot);
+animals.Add(Hond);
 
+foreach (Animal x in animals)
+{
+    Console.WriteLine(x.Name);
+}
 
-public class Dier
+public class Animal
 {
 
-    public Dier(string Name)
+    public Animal(string Name)
     {
         this.Name = Name;
     }
@@ -36,7 +43,7 @@ public class Dier
 }
 
 
-public class DuizendPoot : Dier
+public class DuizendPoot : Animal
 {
     public DuizendPoot(string Name) : base(Name)
     {
@@ -49,3 +56,4 @@ public class DuizendPoot : Dier
         Console.WriteLine($"{this.Name} beweegt zich voort met {poten} aantal poten");
     }
 }
+
