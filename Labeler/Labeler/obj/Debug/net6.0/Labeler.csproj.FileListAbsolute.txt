@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\Labeler\Labeler\bin\Debug\net6.0\Labeler.exe
+C:\Users\arnob\source\repos\Labeler\Labeler\bin\Debug\net6.0\Labeler.deps.json
+C:\Users\arnob\source\repos\Labeler\Labeler\bin\Debug\net6.0\Labeler.runtimeconfig.json
+C:\Users\arnob\source\repos\Labeler\Labeler\bin\Debug\net6.0\Labeler.dll
+C:\Users\arnob\source\repos\Labeler\Labeler\bin\Debug\net6.0\Labeler.pdb
+C:\Users\arnob\source\repos\Labeler\Labeler\obj\Debug\net6.0\Labeler.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\Labeler\Labeler\obj\Debug\net6.0\Labeler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\Labeler\Labeler\obj\Debug\net6.0\Labeler.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\Labeler\Labeler\obj\Debug\net6.0\Labeler.AssemblyInfo.cs
+C:\Users\arnob\source\repos\Labeler\Labeler\obj\Debug\net6.0\Labeler.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\Labeler\Labeler\obj\Debug\net6.0\Labeler.dll
+C:\Users\arnob\source\repos\Labeler\Labeler\obj\Debug\net6.0\refint\Labeler.dll
+C:\Users\arnob\source\repos\Labeler\Labeler\obj\Debug\net6.0\Labeler.pdb
+C:\Users\arnob\source\repos\Labeler\Labeler\obj\Debug\net6.0\Labeler.genruntimeconfig.cache
+C:\Users\arnob\source\repos\Labeler\Labeler\obj\Debug\net6.0\ref\Labeler.dll

@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\asyncTest\asyncTest\bin\Debug\net6.0\asyncTest.exe
+C:\Users\arnob\source\repos\asyncTest\asyncTest\bin\Debug\net6.0\asyncTest.deps.json
+C:\Users\arnob\source\repos\asyncTest\asyncTest\bin\Debug\net6.0\asyncTest.runtimeconfig.json
+C:\Users\arnob\source\repos\asyncTest\asyncTest\bin\Debug\net6.0\asyncTest.dll
+C:\Users\arnob\source\repos\asyncTest\asyncTest\bin\Debug\net6.0\asyncTest.pdb
+C:\Users\arnob\source\repos\asyncTest\asyncTest\obj\Debug\net6.0\asyncTest.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\asyncTest\asyncTest\obj\Debug\net6.0\asyncTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\asyncTest\asyncTest\obj\Debug\net6.0\asyncTest.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\asyncTest\asyncTest\obj\Debug\net6.0\asyncTest.AssemblyInfo.cs
+C:\Users\arnob\source\repos\asyncTest\asyncTest\obj\Debug\net6.0\asyncTest.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\asyncTest\asyncTest\obj\Debug\net6.0\asyncTest.dll
+C:\Users\arnob\source\repos\asyncTest\asyncTest\obj\Debug\net6.0\refint\asyncTest.dll
+C:\Users\arnob\source\repos\asyncTest\asyncTest\obj\Debug\net6.0\asyncTest.pdb
+C:\Users\arnob\source\repos\asyncTest\asyncTest\obj\Debug\net6.0\asyncTest.genruntimeconfig.cache
+C:\Users\arnob\source\repos\asyncTest\asyncTest\obj\Debug\net6.0\ref\asyncTest.dll

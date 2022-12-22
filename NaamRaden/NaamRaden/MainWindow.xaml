@@ -1,0 +1,40 @@
+﻿<Window x:Class="NaamRaden.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NaamRaden"
+        mc:Ignorable="d"
+        Title="miaeuo" Height="600" Width="900">
+    <Grid x:Name="KittyGriddy">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="3.5*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock TextWrapping="WrapWithOverflow" FontSize="20" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Aqua" >hawwo ik ben een kat en dit is mijn eerste virus, verwijder aub een belangrijk bestand en vul nadien je bankgegevens in *-*</TextBlock>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1">
+            <Label Background="AntiqueWhite" >naam en voornaam:</Label>
+            <TextBox x:Name="NameField" Width="250"  FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+            <TextBlock x:Name= "CurrentName" Text="{Binding CurrentName}" Background="Aquamarine"></TextBlock>
+            <Label Background="AntiqueWhite"  >Kaartnummer:</Label>
+            <TextBox Width="250"  FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+            <Label Background="AntiqueWhite" >vervaldatum:</Label>
+            <TextBox Width="250"  FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+            <Button Click="Button_Click">Verzenden</Button>
+        </StackPanel>
+
+
+        <Grid.Background>
+            
+            <ImageBrush ImageSource="\img\bg.jpg" Stretch="Fill"/>
+        </Grid.Background>
+    </Grid>
+</Window>

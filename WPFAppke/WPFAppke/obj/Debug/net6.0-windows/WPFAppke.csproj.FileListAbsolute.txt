@@ -1,0 +1,3 @@
+C:\Users\arnob\source\repos\WPFAppke\WPFAppke\obj\Debug\net6.0-windows\WPFAppke.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\WPFAppke\WPFAppke\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\arnob\source\repos\WPFAppke\WPFAppke\obj\Debug\net6.0-windows\WPFAppke_MarkupCompile.cache

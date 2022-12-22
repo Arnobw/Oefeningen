@@ -1,0 +1,11 @@
+﻿ Layout: Stack Panel<Window x:Class="WPFLayout.FrmStackPanel"
+...
+Title="FrmStackPanel" Height="350" Width="525">
+    <StackPanel Orientation="Vertical" >
+        <Button Name="btnRood" Content="Rood" Foreground="Red"/>
+        <Button Name="btnGroen" Content="Groen"
+Foreground="GreenYellow" />
+        <Button Name="btnBlauw" Content="Blauw"
+Foreground="Blue" />
+    </StackPanel>
+</Window>

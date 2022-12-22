@@ -1,0 +1,15 @@
+C:\Users\arnob\source\repos\kerstman\kerstman\bin\Debug\net6.0\kerstman.exe
+C:\Users\arnob\source\repos\kerstman\kerstman\bin\Debug\net6.0\kerstman.deps.json
+C:\Users\arnob\source\repos\kerstman\kerstman\bin\Debug\net6.0\kerstman.runtimeconfig.json
+C:\Users\arnob\source\repos\kerstman\kerstman\bin\Debug\net6.0\kerstman.dll
+C:\Users\arnob\source\repos\kerstman\kerstman\bin\Debug\net6.0\kerstman.pdb
+C:\Users\arnob\source\repos\kerstman\kerstman\obj\Debug\net6.0\kerstman.csproj.AssemblyReference.cache
+C:\Users\arnob\source\repos\kerstman\kerstman\obj\Debug\net6.0\kerstman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnob\source\repos\kerstman\kerstman\obj\Debug\net6.0\kerstman.AssemblyInfoInputs.cache
+C:\Users\arnob\source\repos\kerstman\kerstman\obj\Debug\net6.0\kerstman.AssemblyInfo.cs
+C:\Users\arnob\source\repos\kerstman\kerstman\obj\Debug\net6.0\kerstman.csproj.CoreCompileInputs.cache
+C:\Users\arnob\source\repos\kerstman\kerstman\obj\Debug\net6.0\kerstman.dll
+C:\Users\arnob\source\repos\kerstman\kerstman\obj\Debug\net6.0\refint\kerstman.dll
+C:\Users\arnob\source\repos\kerstman\kerstman\obj\Debug\net6.0\kerstman.pdb
+C:\Users\arnob\source\repos\kerstman\kerstman\obj\Debug\net6.0\kerstman.genruntimeconfig.cache
+C:\Users\arnob\source\repos\kerstman\kerstman\obj\Debug\net6.0\ref\kerstman.dll
